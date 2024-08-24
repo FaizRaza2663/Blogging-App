@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav div:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav div:last-child {
+    margin-left: auto;
+}
+
+.signup-button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.logo{
+    text-decoration: none;
+    color:white
+    
+    /* color: black; */
+
+}
+
+.logo:hover{
+    text-decoration: none;
+}

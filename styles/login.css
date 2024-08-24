@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+fieldset {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+}
+.button-login{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+form{
+    width: 100%;
+}   

@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    
+    max-width: 90%;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-login {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* Container for the form */
+.blog-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Blog card */
+.blog-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 260px;
+    height: 260px;
+    
+}
+
+#blogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.blog-image{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.blog-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-description {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.blog-date {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: auto;
+}
+
+/* Responsive Grid */
+@media (min-width: 640px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .blog-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
